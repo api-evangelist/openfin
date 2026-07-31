@@ -1,0 +1,135 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/org/openfin (npm registry search text=@openfin)
+notes: >-
+  OpenFin (now HERE) publishes its developer surface as first-party npm packages
+  under the @openfin scope plus a few unscoped legacy packages. There is no REST
+  API / OpenAPI; the SDK is the JavaScript `fin` container/runtime API, with Java
+  and .NET adapters distributed outside npm.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@openfin/core"
+    url: https://www.npmjs.com/package/@openfin/core
+    install: npm install @openfin/core
+    description: Core renderer entry point / container runtime API for OpenFin apps.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@openfin/core-web"
+    url: https://www.npmjs.com/package/@openfin/core-web
+    install: npm install @openfin/core-web
+    description: Interop and layouts APIs for running OpenFin interop in a web browser.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@openfin/workspace"
+    url: https://www.npmjs.com/package/@openfin/workspace
+    install: npm install @openfin/workspace
+    description: API for integrating with OpenFin Workspace (Home, Dock, Store, Notifications).
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@openfin/fdc3-api"
+    url: https://www.npmjs.com/package/@openfin/fdc3-api
+    install: npm install @openfin/fdc3-api
+    description: FDC3 module utilities and TypeScript types for interop.
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@types/openfin"
+    url: https://www.npmjs.com/package/@types/openfin
+    install: npm install --save-dev @types/openfin
+    description: TypeScript definitions for the OpenFin `fin` API.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@openfin/cloud-api"
+    url: https://www.npmjs.com/package/@openfin/cloud-api
+    install: npm install @openfin/cloud-api
+    description: Client for the OpenFin Cloud Platform (notifications and cloud services).
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@openfin/cloud-interop"
+    url: https://www.npmjs.com/package/@openfin/cloud-interop
+    install: npm install @openfin/cloud-interop
+    description: Cloud-based InteropBroker for cross-application / cross-device interop.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@openfin/snap-sdk"
+    url: https://www.npmjs.com/package/@openfin/snap-sdk
+    install: npm install @openfin/snap-sdk
+    description: Integrate OpenFin applications with OpenFin Snap window management.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@openfin/search-api"
+    url: https://www.npmjs.com/package/@openfin/search-api
+    install: npm install @openfin/search-api
+    description: Search API framework for OpenFin Workspace.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@openfin/excel"
+    url: https://www.npmjs.com/package/@openfin/excel
+    install: npm install @openfin/excel
+    description: Automate Microsoft Excel from the OpenFin Container.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@openfin/bloomberg"
+    url: https://www.npmjs.com/package/@openfin/bloomberg
+    install: npm install @openfin/bloomberg
+    description: Connect apps running in OpenFin with the Bloomberg Terminal.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@openfin/salesforce"
+    url: https://www.npmjs.com/package/@openfin/salesforce
+    install: npm install @openfin/salesforce
+    description: Connect the OpenFin Container with Salesforce.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@openfin/microsoft365"
+    url: https://www.npmjs.com/package/@openfin/microsoft365
+    install: npm install @openfin/microsoft365
+    description: Connect the OpenFin Container with Microsoft 365.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@openfin/servicenow"
+    url: https://www.npmjs.com/package/@openfin/servicenow
+    install: npm install @openfin/servicenow
+    description: Connect the OpenFin Container with ServiceNow.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "openfin-notifications"
+    url: https://www.npmjs.com/package/openfin-notifications
+    install: npm install openfin-notifications
+    description: Client library for the OpenFin Notifications Center.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "openfin-launcher"
+    url: https://www.npmjs.com/package/openfin-launcher
+    install: npm install openfin-launcher
+    description: Programmatically launch OpenFin applications.
+    official: true
+  - language: java
+    registry: github
+    name: "openfin/java-adapter"
+    url: https://github.com/openfin/java-example
+    install: "See github.com/openfin (java-example / java-interop)"
+    description: OpenFin Java adapter for embedding the runtime in JVM applications.
+    official: true
+  - language: dotnet
+    registry: github
+    name: "OpenFin .NET adapter"
+    url: https://github.com/openfin
+    install: "See github.com/openfin (embedding-wpf-demo, dotnet-notifications-demo-app)"
+    description: OpenFin .NET/WPF adapter for embedding the runtime in Windows apps.
+    official: true

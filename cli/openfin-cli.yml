@@ -1,0 +1,40 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/package/openfin-cli
+name: openfin-cli
+summary: >-
+  First-party command-line tooling for the OpenFin (HERE) developer environment.
+  `openfin-cli` launches apps against the OpenFin Runtime from an app manifest URL
+  and supports local development flows; `@openfin/automation-cli` runs automated
+  UI/integration tests within the OpenFin ecosystem.
+binaries:
+  - name: openfin-cli
+    registry: npm
+    package: openfin-cli
+    url: https://www.npmjs.com/package/openfin-cli
+    install:
+      - npm install -g openfin-cli
+    description: Launch and manage OpenFin apps from the command line via a manifest.
+    official: true
+  - name: openfin (automation)
+    registry: npm
+    package: "@openfin/automation-cli"
+    url: https://www.npmjs.com/package/@openfin/automation-cli
+    install:
+      - npm install --save-dev @openfin/automation-cli
+    description: CLI for running automation tests within the OpenFin ecosystem.
+    official: true
+common_flows:
+  - flow: launch-app
+    example: openfin --launch --config https://<host>/app.json
+    description: Launch an OpenFin application from a remote app manifest (app.json).
+  - flow: version-targeting
+    example: openfin --launch --config app.json --runtime <version>
+    description: Launch against a specific OpenFin Runtime version.
+  - flow: automation-test
+    example: openfin-automation
+    description: Execute automated tests against a running OpenFin Runtime.
+notes: >-
+  OpenFin is a desktop container platform, not a REST API, so the CLI targets the
+  local runtime + app manifests rather than a hosted API. Helper library
+  @openfin/automation-helpers accompanies the automation CLI.

@@ -1,0 +1,36 @@
+generated: '2026-07-20'
+method: searched
+source: >-
+  https://resources.here.io/docs/core/ (FDC3 support) and
+  https://www.openfin.co/ / https://www.here.io/ (SOC + FSQS trust badges)
+standards:
+  - id: fdc3
+    name: FDC3 (Financial Desktop Connectivity and Collaboration Consortium) interop standard
+    conforms: true
+    evidence: >-
+      HERE Core / OpenFin documents an FDC3 API — "The FDC3 API enables applications
+      that comply with the FDC3 standard to seamlessly work in the HERE Core
+      environment." Published as @openfin/fdc3-api on npm.
+    docs: https://resources.here.io/docs/core/
+  - id: soc2
+    name: AICPA SOC 2
+    conforms: true
+    evidence: >-
+      Company website carries an "AICPA SOC certified" trust badge. Enterprise
+      fintech deployment posture; certification report available under NDA to
+      customers (not published openly).
+  - id: fsqs
+    name: FSQS (Financial Services Qualification System) registration
+    conforms: true
+    evidence: >-
+      Company website carries an "FSQS Registered" badge (Hellios FSQS supplier
+      qualification used across UK/EU financial services).
+  - id: oauth2
+    conforms: false
+    evidence: No public REST API / OpenAPI; auth is via the desktop app manifest + RVM model, not OAuth2.
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: JavaScript container API, not an HTTP problem+json surface.
+  - id: rest-openapi
+    conforms: false
+    evidence: OpenFin exposes a JavaScript `fin` runtime API, not a REST/OpenAPI HTTP API.

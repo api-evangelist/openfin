@@ -1,8 +1,26 @@
 aid: openfin
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openfin.png
 name: OpenFin
-description: 'OpenFin is a company surfaced as a portfolio company of bain-capital-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  OpenFin — now branded HERE — is the operating-system layer for enterprise
+  financial desktops. Its container/runtime lets web applications run as secure,
+  interoperable desktop apps, adding Workspace surfaces (Home, Dock, Store,
+  Notifications Center, Browser) and FDC3-based application interop. The developer
+  surface is a JavaScript `fin` runtime/container API (with Java and .NET adapters
+  and a rich set of @openfin npm packages), not a REST/HTTP API. OpenFin is
+  deployed across banks and financial institutions and is backed by Bain Capital
+  Ventures. This profile was enriched from OpenFin/HERE's public developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/openfin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Financial Services
+- Desktop
+- Container
+- Interoperability
+- FDC3
+- Workspace
+- Developer Tools
+- Capital Markets
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,42 @@ maintainers:
 common:
 - type: Website
   url: https://www.openfin.co/
+- type: DeveloperPortal
+  url: https://resources.here.io/docs/core/
+- type: Documentation
+  url: https://resources.here.io/docs/core/
+- type: APIReference
+  url: https://cdn.openfin.co/docs/javascript/stable/index.html
+- type: GettingStarted
+  url: https://resources.here.io/docs/core/get-started/what-is-here-core
+- type: Support
+  url: https://www.here.io/support
+- type: Blog
+  url: https://www.here.io/blog
+- type: GitHubOrganization
+  url: https://github.com/openfin
+- type: TermsOfService
+  url: https://www.here.io/terms
+- type: PrivacyPolicy
+  url: https://www.here.io/privacy
+- type: Packages
+  url: packages/openfin-packages.yml
+- type: SDKs
+  url: packages/openfin-packages.yml
+- type: CLI
+  url: cli/openfin-cli.yml
+- type: Components
+  url: components/openfin-components.yml
+- type: Conformance
+  url: conformance/openfin-conformance.yml
+- type: Compliance
+  url: conformance/openfin-conformance.yml
+- type: DomainSecurity
+  url: security/openfin-domain-security.yml
+- type: LLMsTxt
+  url: llms/openfin-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1

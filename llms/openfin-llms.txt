@@ -1,0 +1,33 @@
+# OpenFin (HERE)
+
+> OpenFin — now branded HERE — is the operating-system layer for enterprise financial desktops. Its container/runtime lets web applications run as secure, interoperable desktop apps, with Workspace surfaces (Home, Dock, Store, Notifications, Browser) and FDC3-based interop. The developer surface is a JavaScript `fin` runtime API (plus Java and .NET adapters), not a REST/HTTP API. Backed by Bain Capital Ventures; widely deployed across banks and financial institutions.
+
+## Documentation
+- [HERE Core docs](https://resources.here.io/docs/core/): Primary developer documentation (formerly developers.openfin.co/of-docs).
+- [Get started — What is HERE Core](https://resources.here.io/docs/core/get-started/what-is-here-core): Getting-started / quick-start entry point.
+- [JavaScript API reference](https://cdn.openfin.co/docs/javascript/stable/index.html): Full reference for the `fin` runtime/container API.
+- [HERE Core UI Components](https://resources.here.io/docs/core/hc-ui/): Embeddable UI component docs.
+
+## SDKs & Packages
+- [@openfin/core](https://www.npmjs.com/package/@openfin/core): Core container runtime API.
+- [@openfin/core-web](https://www.npmjs.com/package/@openfin/core-web): Interop + layouts in the browser.
+- [@openfin/workspace](https://www.npmjs.com/package/@openfin/workspace): Workspace integration API.
+- [@openfin/fdc3-api](https://www.npmjs.com/package/@openfin/fdc3-api): FDC3 interop utilities and types.
+- [@types/openfin](https://www.npmjs.com/package/@types/openfin): TypeScript definitions.
+- [@openfin/cloud-api](https://www.npmjs.com/package/@openfin/cloud-api): Cloud Platform client.
+- Java + .NET adapters: [github.com/openfin](https://github.com/openfin).
+
+## CLI
+- [openfin-cli](https://www.npmjs.com/package/openfin-cli): Launch OpenFin apps from a manifest.
+- [@openfin/automation-cli](https://www.npmjs.com/package/@openfin/automation-cli): Automation test runner.
+
+## Standards
+- FDC3 (Financial Desktop Connectivity and Collaboration Consortium) interop.
+- SOC 2 (AICPA SOC certified) and FSQS Registered (see conformance/openfin-conformance.yml).
+
+## Company
+- [Company site](https://www.here.io/): HERE (formerly OpenFin).
+- [GitHub org](https://github.com/openfin): Examples, adapters, and demos.
+- [Blog](https://www.here.io/blog): Product and company news.
+- [Support](https://www.here.io/support): Developer and customer support.
+- [Terms](https://www.here.io/terms) · [Privacy](https://www.here.io/privacy)

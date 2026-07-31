@@ -1,0 +1,43 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/package/@openfin/ui-library
+summary: >-
+  OpenFin (HERE) ships client-side, embeddable UI components for building desktop
+  interop applications and workspace surfaces. These are distinct from the
+  server/runtime SDKs in packages/ — they are prebuilt UI element libraries and
+  hosted workspace surfaces (Home, Dock, Store, Notifications Center).
+families:
+  - family: HERE Core UI Components
+    docs: https://resources.here.io/docs/core/hc-ui/
+    loaders:
+      - registry: npm
+        name: "@openfin/ui-library"
+        url: https://www.npmjs.com/package/@openfin/ui-library
+        description: OpenFin/HERE UI component library for building interop app UIs.
+      - registry: npm
+        name: "@openfin/here-ui-css"
+        url: https://www.npmjs.com/package/@openfin/here-ui-css
+        description: CSS-only distribution of the @openfin/ui-library components.
+    components:
+      - Reusable interop-aware UI elements (buttons, layouts, panels)
+  - family: Workspace surfaces
+    docs: https://resources.here.io/docs/core/
+    loaders:
+      - registry: npm
+        name: "@openfin/workspace"
+        url: https://www.npmjs.com/package/@openfin/workspace
+        description: Prebuilt, embeddable Workspace surfaces.
+    components:
+      - Home (launcher / search)
+      - Dock (app dock)
+      - Store (app catalog)
+      - Notifications Center
+      - Browser (tabbed window management)
+  - family: Notifications
+    loaders:
+      - registry: npm
+        name: openfin-notifications
+        url: https://www.npmjs.com/package/openfin-notifications
+        description: Client library rendering the OpenFin Notifications Center UI.
+    components:
+      - Toast / notification cards
