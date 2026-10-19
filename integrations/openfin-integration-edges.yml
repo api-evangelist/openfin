@@ -1,0 +1,121 @@
+edges:
+- partner_name: npm registry
+  partner: npm
+  partner_match: register
+  type: register
+  direction: provider-built
+  category: official SDK (JavaScript/TypeScript)
+  evidence: https://www.npmjs.com/package/@openfin/bloomberg
+  channel: package-registry
+  relationship: distribution-channel
+  contract_reference:
+    register: npm registry (public registry JSON)
+    spec_file: null
+    language: JavaScript/TypeScript
+    packages:
+    - name: '@openfin/bloomberg'
+      version: 2.1.1
+      released: '2026-10-15'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@openfin/bloomberg
+      repo_leg: domain:openfin.co
+      publisher_leg: email:openfin.co
+      matched_by: domain
+    - name: '@openfin/excel'
+      version: 1.5.0
+      released: '2026-10-15'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@openfin/excel
+      repo_leg: domain:openfin.co
+      publisher_leg: email:openfin.co
+      matched_by: domain
+    - name: '@openfin/microsoft365'
+      version: 1.1.1
+      released: '2026-10-15'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@openfin/microsoft365
+      repo_leg: domain:openfin.co
+      publisher_leg: email:openfin.co
+      matched_by: domain
+    - name: '@openfin/salesforce'
+      version: 2.3.0
+      released: '2026-10-15'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@openfin/salesforce
+      repo_leg: domain:openfin.co
+      publisher_leg: email:openfin.co
+      matched_by: domain
+    - name: '@openfin/search-api'
+      version: 2.0.1
+      released: '2026-10-15'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@openfin/search-api
+      repo_leg: domain:openfin.co
+      publisher_leg: email:openfin.co
+      matched_by: domain
+    - name: '@openfin/servicenow'
+      version: 1.0.1
+      released: '2026-10-15'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@openfin/servicenow
+      repo_leg: domain:openfin.co
+      publisher_leg: email:openfin.co
+      matched_by: domain
+    - name: '@openfin/snap-sdk'
+      version: 1.7.0
+      released: '2026-10-15'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@openfin/snap-sdk
+      repo_leg: domain:openfin.co
+      publisher_leg: email:openfin.co
+      matched_by: domain
+    - name: openfin-launcher
+      version: 1.4.9
+      released: '2026-10-15'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/openfin-launcher
+      repo_leg: github-org:openfin
+      publisher_leg: email:openfin.co
+      matched_by: domain
+    - name: openfin-notifications
+      version: 2.12.6
+      released: '2026-10-15'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/openfin-notifications
+      repo_leg: domain:openfin.co
+      publisher_leg: email:openfin.co
+      matched_by: domain
+    current: true
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  detected_by: sweep-official-sdks.py
+  first_seen: '2026-10-18'
+generated: '2026-10-18'
+method: searched
+source:
+- https://api.nuget.org/v3
+- https://crates.io/api/v1
+- https://proxy.golang.org
+- https://pypi.org/pypi
+- https://registry.npmjs.org
+- https://repo1.maven.org/maven2
+- https://rubygems.org/api/v1
+checked:
+- https://api.nuget.org/v3
+- https://crates.io/api/v1
+- https://proxy.golang.org
+- https://pypi.org/pypi
+- https://registry.npmjs.org
+- https://repo1.maven.org/maven2
+- https://rubygems.org/api/v1
