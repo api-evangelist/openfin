@@ -64,6 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-OpenFin is a company surfaced as a portfolio company of bain-capital-ventures and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.
+OpenFin — now branded HERE — is the operating-system layer for enterprise financial desktops. Its container/runtime lets web applications run as secure, interoperable desktop apps, adding Workspace surfaces (Home, Dock, Store, Notifications Center, Browser) and FDC3-based application interop. The developer surface is a JavaScript `fin` runtime/container API (with Java and .NET adapters and a rich set of @openfin npm packages), not a REST/HTTP API. OpenFin is deployed across banks and financial institutions and is backed by Bain Capital Ventures. This profile was enriched from OpenFin/HERE's public developer surface.
 
-Backed by: bain-capital-ventures — https://www.openfin.co/
+**Areas:** Company · Fintech · Financial Services · Desktop · Containers · Interoperability · FDC3 · Workspace · Developer Tools · Capital Markets
+
+## OpenFin on APIs.io
+
+Everything profiled for OpenFin is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/openfin/](https://apis.io/providers/openfin/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Openfin Domain Security](https://apis.io/security/openfin/openfin-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.openfin.co/)
+- [Documentation](https://resources.here.io/docs/core/)
+- [Getting started](https://resources.here.io/docs/core/get-started/what-is-here-core)
+- [API reference](https://cdn.openfin.co/docs/javascript/stable/index.html)
+- [Support](https://www.here.io/support)
+- [Blog](https://www.here.io/blog)
+- [Terms of service](https://www.here.io/terms)
+- [Privacy policy](https://www.here.io/privacy)
+- [GitHub](https://github.com/openfin)
+
+## API Evangelist rating
+
+**Kin Score 27.0** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 59.5 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 23.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/openfin/](https://apis.io/providers/openfin/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for OpenFin: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/openfin/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
